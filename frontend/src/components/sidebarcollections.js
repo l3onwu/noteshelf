@@ -23,7 +23,6 @@ const Container = styled.div`
   }
   a: hover {
     color: grey;
-    cursor: pointer;
   }
 `;
 
@@ -34,7 +33,7 @@ const SidebarCollections = ({ collectionList }) => {
       <ul>
         {collectionList.map((c) => (
           <li>
-            <a># {c}</a>
+            <a href=""># {c}</a>
           </li>
         ))}
       </ul>
