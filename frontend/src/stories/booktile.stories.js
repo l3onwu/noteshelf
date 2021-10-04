@@ -1,15 +1,17 @@
-import React from 'react';
-import BookTile from "../components/booktile"
+import React from "react";
+import BookTile from "../components/booktile";
 
 export default {
   title: "01 Book Tile",
-  component: BookTile
-}
+  component: BookTile,
+};
 
 const Template = (args) => <BookTile {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  // primary: true,
+  image: "images/covers/dh.jpeg",
+  author: "J.K Rowling",
+  title: "Harry Potter and the Deathly Hallows",
   // label: 'Button',
 };

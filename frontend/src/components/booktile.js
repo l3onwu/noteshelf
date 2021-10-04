@@ -3,8 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   box-sizing: border-box;
-  padding: 25px;
-  // border: 1px solid white;
+  padding: 15px;
   width: 25%;
   &:hover {
     background-color: rgba(255, 255, 255, 0.1);
@@ -15,6 +14,8 @@ const Container = styled.div`
 const Cover = styled.div`
   img {
     width: 100%;
+    aspect-ratio: 1/1.6;
+    object-fit: cover;
     box-shadow: 3px 5px 4px 1px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
   }
