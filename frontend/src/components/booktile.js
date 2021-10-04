@@ -36,15 +36,16 @@ const Description = styled.div`
   }
 `;
 
-const BookTile = () => {
+//Book Tile with dummy data passed as props
+const BookTile = ({title, author, image}) => {
   return (
     <Container>
       <Cover>
-        <img src="images/covers/dh.jpeg"></img>
+        <img src={image}></img>
       </Cover>
       <Description>
-        <h3>Harry Potter and the Deathly Hallows</h3>
-        <p>J.K Rowling</p>
+        <h3>{title}</h3>
+        <p>{author}</p>
       </Description>
     </Container>
   );
