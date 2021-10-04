@@ -6,4 +6,13 @@ export const parameters = {
       date: /Date$/,
     },
   },
+  backgrounds: {
+    default: 'noteshelf',
+    values: [
+      {
+        name: 'noteshelf',
+        value: '#282732',
+      }
+    ],
+  },
 }
