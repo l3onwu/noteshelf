@@ -5,8 +5,11 @@ const Container = styled.div`
   box-sizing: border-box;
   padding: 25px;
   // border: 1px solid white;
-  // background-color: rgba(255, 255, 255, 0.1);
   width: 25%;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
 `;
 
 const Cover = styled.div`
@@ -22,14 +25,13 @@ const Description = styled.div`
   // border: 1px solid white;
   font-family: arial;
   color: white;
-
   h3 {
     margin: 0 0 4px 0;
-    font-size: 14px;
+    font-size: 13px;
   }
   p {
     margin: 0px;
-    font-size: 13px;
+    font-size: 12px;
     color: rgba(255, 255, 255, 0.75);
   }
 `;
@@ -41,7 +43,7 @@ const BookTile = () => {
         <img src="images/covers/dh.jpeg"></img>
       </Cover>
       <Description>
-        <h3>Harry Potter and the Dea..</h3>
+        <h3>Harry Potter and the Deathly Hallows</h3>
         <p>J.K Rowling</p>
       </Description>
     </Container>
