@@ -3,9 +3,7 @@ import styled from "styled-components";
 const Container = styled.div`
   // border: 1px solid white;
   margin: 0 0 20px 0;
-  color: white;
-  font-family: arial;
-  font-size: 15px;
+  font-size: 14px;
   ul {
     list-style-type: none;
     margin: 0;
@@ -17,8 +15,8 @@ const Container = styled.div`
   }
   a,
   a:visited {
+    color:white;
     margin: 0;
-    color: white;
     text-decoration: none;
   }
   a: hover {

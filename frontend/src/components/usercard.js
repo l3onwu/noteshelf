@@ -19,16 +19,15 @@ const Avatar = styled.img`
 
 const UserText = styled.div`
   // border: 1px solid white;
-  color: white;
   margin: 0;
   h3 {
-    font-size: 15px;
+    font-size: 14px;
     margin: 0 0 5px 0;
   }
   a, a:visited {
+    color: white;
     font-size: 13px;
     margin: 0;
-    color: white;
     text-decoration: none;
   }
   

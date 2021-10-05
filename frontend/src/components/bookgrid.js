@@ -3,9 +3,8 @@ import styled from "styled-components";
 import BookTile from "./booktile";
 
 const Container = styled.div`
-  padding: 0 5px;
   // border: 1px solid white;
-  width: 600px;
+  width: 750px;
   height: 600px;
   display: flex;
   flex-wrap: wrap;

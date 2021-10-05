@@ -2,15 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  box-sizing: border-box;
+  // border: 1px solid white;
   padding: 15px;
-  width: 25%;
+  width: 150px;
   &:hover {
     background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer;
   }
 `;
 
+//Find alternative to aspect-ratio, not supported in Safari
 const Cover = styled.div`
   img {
     width: 100%;
@@ -24,8 +25,6 @@ const Cover = styled.div`
 
 const Description = styled.div`
   // border: 1px solid white;
-  font-family: arial;
-  color: white;
   h3 {
     margin: 0 0 4px 0;
     font-size: 13px;
@@ -38,7 +37,7 @@ const Description = styled.div`
 `;
 
 //Book Tile with dummy data passed as props
-const BookTile = ({title, author, image}) => {
+const BookTile = ({ title, author, image }) => {
   return (
     <Container>
       <Cover>

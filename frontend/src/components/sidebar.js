@@ -9,7 +9,6 @@ const Container = styled.div`
   background-color: #1c1a24;
   height: 100vh;
   width: 300px;
-  margin: 0;
   hr {
     border: 0;
     height: 1px;
@@ -22,7 +21,6 @@ const Hero = styled.h1`
   // border: 1px solid white;
   font-family: "Varela Round", sans-serif;
   font-size: 40px;
-  color: white;
   margin: 0;
   padding: 30px 30px 0 30px;
 `;
