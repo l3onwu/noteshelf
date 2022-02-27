@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import Sidebar from "./components/sidebar"
+import Sidebar from "./components/sidebar";
 import BookGrid from "./components/bookgrid";
 
 const Container = styled.div`
@@ -9,6 +9,7 @@ const Container = styled.div`
   height: 100vh;
   width: 100%;
   display: flex;
+  // overflow: scroll;
 `;
 
 const App = () => {

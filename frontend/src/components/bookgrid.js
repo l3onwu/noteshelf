@@ -4,10 +4,13 @@ import BookTile from "./booktile";
 
 const Container = styled.div`
   // border: 1px solid white;
-  width: 750px;
-  height: 600px;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  align-content: flex-start;
   display: flex;
   flex-wrap: wrap;
+  overflow: scroll;
 `;
 
 //Book Grid with dummy data passed into Book Tiles
